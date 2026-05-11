@@ -428,6 +428,8 @@ const responseJwt = signJwt({
 
 ---
 
+> 💡 **Tip:** Use the [LTI 1.3 JWT Debugger](https://muhammadahsan-tech.github.io/lti13-jwt-debugger) to inspect your JWT claims visually before diving into the issues below.
+
 ## Part 6: Canvas Placements
 
 Placements control where in the Canvas UI your tool appears. Configure these in the Developer Key under **Placements**.
@@ -565,6 +567,9 @@ A single Developer Key can have multiple deployments. If your tool validates the
 - [ ] Deep Linking responses are signed and POSTed back to `deep_link_return_url`
 - [ ] Tool tested in Canvas Beta before Production
 
+## Debugging Tools
+
+- [LTI 1.3 JWT Debugger](https://muhammadahsan-tech.github.io/lti13-jwt-debugger) — Free browser-based tool to decode and validate your LTI 1.3 JWT instantly. Paste the `id_token` from a Canvas launch and see all claims decoded with plain-English explanations and 20+ spec validation checks. No backend, no login, 100% client-side. Indispensable for debugging Canvas launch failures.
 ---
 
 ## Related Repositories
